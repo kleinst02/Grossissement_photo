@@ -1,0 +1,38 @@
+h1{
+	text-align: center;
+}
+
+
+.bloc
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.zoom1 div img {
+	border-radius: 5%;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom1 div:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.zoom2 div img {
+	border-radius: 5%;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+
+.zoom2 div:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
